@@ -9,6 +9,10 @@
 ### 1.7 if语句
 ### 1.8 for语句
 ### 1.9 函数
-### NumPy
+### 1.10 NumPy
 安装numpy库
 `pip install numpy`
+### 1.11 Matplotlib
+安装matplotlib库
+'pip install matplotlib'
+matplotlib也可以用于显示图片，和matlib一样
