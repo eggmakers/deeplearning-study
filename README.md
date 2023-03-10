@@ -16,3 +16,10 @@
 安装matplotlib库
 'pip install matplotlib'
 matplotlib也可以用于显示图片，和matlib一样
+## 二.感知机
+### 感知机原理
+####　用感知机表达简单逻辑电路
+代码preceptron.py
+偏置决定了神经元激活的容易程度，而权重决定了激活物的有效程度
+感知机无法实现异或门
+#### 多层感知机
