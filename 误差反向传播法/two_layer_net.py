@@ -37,7 +37,7 @@ class TwoLayerNet:
         y = self.predict(x)
         y = np.argmax(y, axis=1)
         if t.ndim != 1 : t = np.argmax(t, axis=1)
-        accuracy = np.sum(y == t) / float(x.shapee[0])
+        accuracy = np.sum(y == t) / float(x.shape[0])
         return accuracy
     
     #x:输入数据, t:监督数据
